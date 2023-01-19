@@ -1,0 +1,39 @@
+.div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px 0 8px;
+    color: #47546C;
+}
+.div > h1 {
+    font-size: 25px;
+}
+
+.childDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid #000; */
+}
+.childDiv > * {
+    display: inline-block;
+    padding: 0 20px 0 10px ;
+    font-size: 15px;
+    text-decoration: none;
+    color: #47546C;
+}
+
+.childDiv > * :hover{
+    font-size: 16px;
+}
+
+.cartButton{
+    border: none;
+    background-color: aqua;
+}
+
+.cartIcon{
+    height: 22px;
+    width: 28px;
+    padding: 3px; 
+}
