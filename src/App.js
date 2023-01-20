@@ -13,7 +13,7 @@ function App() {
         <Route path='/' element={<Home/>}></Route>
         <Route path='/cart/:id' element={<Cart/>}></Route>
       </Routes>
-
+{/*  */}
     </div>
   );
 }
